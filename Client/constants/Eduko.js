@@ -1,0 +1,31 @@
+export const teacher_Actions= {
+	teacher_Create :{
+	TEACHERNEW: "DATA_NEW",
+    ADDTEACHER: "ADD_TEACHER",
+    SHOWTEACHER: "SHOW_TEACHER",
+    DETAILS: "DETAILS",
+    FAILURE: "DATA_FAILURE",
+    EXISTING:"DATA_EXISTING",
+
+    CREATED:"DATA_CREATED",
+    POST:"DATA_POST",
+    FINDPerson:"DATA_FIND",
+    CALLCARD:"CALL CARD"
+	}
+}
+
+export const teacher_Status ={
+	teacher_Create :{
+    TEACHERNEW: "DATA_NEW",
+    ADDTEACHER: "ADD_TEACHER",
+    SHOWTEACHER: "SHOW_TEACHER",
+    DETAILS: "DETAILS",
+    FAILURE: "DATA_FAILURE",
+    EXISTING:"DATA_EXISTING",
+
+    SUCCESS:"DATA_SUCCESS",
+    LOADING:"DATA_LOADING",
+    SHOWLIST:"SHOW LIST DATA",
+    SHOWCARD:"SHOW CARD"
+	}
+}

@@ -1,0 +1,29 @@
+export const student_Actions= {
+	student_Create :{
+    STUDENTNEW: "DATAA_NEW",
+    SHOWSTUDENT: "SHOW_STUDENT",
+        ADDSTUDENT:"ADD_STUDENT",
+    FAILURE: "DATA_FAILURE",
+    CREATED:"DATA_CREATED",
+    EXISTING:"DATA_EXISTING",
+    POST:"DATA_POST",
+    FINDPerson:"DATA_FIND",
+    
+    SHOWDATA:"SHOWDATA"
+	}
+}
+
+export const student_Status ={
+	student_Create :{
+    STUDENTNEW: "DATA_NEWW",
+    SHOWSTUDENT: "SHOW_STUDENT",
+    ADDSTUDENT:"ADD_STUDENT",
+
+	FAILURE: "DATA_FAILURE",
+    SUCCESS:"DATA_SUCCESS",
+    LOADING:"DATA_LOADING",
+    EXISTING:"DATA_EXISTING",
+    SHOWLIST:"SHOW LIST DATA",
+    SHOWDATA:"SHOWDATA"
+	}
+}
